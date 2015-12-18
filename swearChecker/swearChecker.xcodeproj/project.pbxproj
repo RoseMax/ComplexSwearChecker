@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAFDF6611C24773C001AE8A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFDF6601C24773C001AE8A9 /* main.m */; };
+		AAFDF6641C24773C001AE8A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFDF6631C24773C001AE8A9 /* AppDelegate.m */; };
+		AAFDF6671C24773C001AE8A9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFDF6661C24773C001AE8A9 /* ViewController.m */; };
+		AAFDF66A1C24773C001AE8A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAFDF6681C24773C001AE8A9 /* Main.storyboard */; };
+		AAFDF66C1C24773C001AE8A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAFDF66B1C24773C001AE8A9 /* Assets.xcassets */; };
+		AAFDF66F1C24773C001AE8A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAFDF66D1C24773C001AE8A9 /* LaunchScreen.storyboard */; };
+		AAFDF67A1C24773C001AE8A9 /* swearCheckerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFDF6791C24773C001AE8A9 /* swearCheckerTests.m */; };
+		AAFDF6851C24773C001AE8A9 /* swearCheckerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFDF6841C24773C001AE8A9 /* swearCheckerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAFDF6761C24773C001AE8A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAFDF6541C24773C001AE8A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAFDF65B1C24773C001AE8A9;
+			remoteInfo = swearChecker;
+		};
+		AAFDF6811C24773C001AE8A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAFDF6541C24773C001AE8A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAFDF65B1C24773C001AE8A9;
+			remoteInfo = swearChecker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AAFDF65C1C24773C001AE8A9 /* swearChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swearChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAFDF6601C24773C001AE8A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AAFDF6621C24773C001AE8A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AAFDF6631C24773C001AE8A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AAFDF6651C24773C001AE8A9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AAFDF6661C24773C001AE8A9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AAFDF6691C24773C001AE8A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAFDF66B1C24773C001AE8A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAFDF66E1C24773C001AE8A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AAFDF6701C24773C001AE8A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAFDF6751C24773C001AE8A9 /* swearCheckerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swearCheckerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAFDF6791C24773C001AE8A9 /* swearCheckerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = swearCheckerTests.m; sourceTree = "<group>"; };
+		AAFDF67B1C24773C001AE8A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAFDF6801C24773C001AE8A9 /* swearCheckerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swearCheckerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAFDF6841C24773C001AE8A9 /* swearCheckerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = swearCheckerUITests.m; sourceTree = "<group>"; };
+		AAFDF6861C24773C001AE8A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAFDF6591C24773C001AE8A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFDF6721C24773C001AE8A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFDF67D1C24773C001AE8A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAFDF6531C24773C001AE8A9 = {
+			isa = PBXGroup;
+			children = (
+				AAFDF65E1C24773C001AE8A9 /* swearChecker */,
+				AAFDF6781C24773C001AE8A9 /* swearCheckerTests */,
+				AAFDF6831C24773C001AE8A9 /* swearCheckerUITests */,
+				AAFDF65D1C24773C001AE8A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAFDF65D1C24773C001AE8A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAFDF65C1C24773C001AE8A9 /* swearChecker.app */,
+				AAFDF6751C24773C001AE8A9 /* swearCheckerTests.xctest */,
+				AAFDF6801C24773C001AE8A9 /* swearCheckerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAFDF65E1C24773C001AE8A9 /* swearChecker */ = {
+			isa = PBXGroup;
+			children = (
+				AAFDF6621C24773C001AE8A9 /* AppDelegate.h */,
+				AAFDF6631C24773C001AE8A9 /* AppDelegate.m */,
+				AAFDF6651C24773C001AE8A9 /* ViewController.h */,
+				AAFDF6661C24773C001AE8A9 /* ViewController.m */,
+				AAFDF6681C24773C001AE8A9 /* Main.storyboard */,
+				AAFDF66B1C24773C001AE8A9 /* Assets.xcassets */,
+				AAFDF66D1C24773C001AE8A9 /* LaunchScreen.storyboard */,
+				AAFDF6701C24773C001AE8A9 /* Info.plist */,
+				AAFDF65F1C24773C001AE8A9 /* Supporting Files */,
+			);
+			path = swearChecker;
+			sourceTree = "<group>";
+		};
+		AAFDF65F1C24773C001AE8A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAFDF6601C24773C001AE8A9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AAFDF6781C24773C001AE8A9 /* swearCheckerTests */ = {
+			isa = PBXGroup;
+			children = (
+				AAFDF6791C24773C001AE8A9 /* swearCheckerTests.m */,
+				AAFDF67B1C24773C001AE8A9 /* Info.plist */,
+			);
+			path = swearCheckerTests;
+			sourceTree = "<group>";
+		};
+		AAFDF6831C24773C001AE8A9 /* swearCheckerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AAFDF6841C24773C001AE8A9 /* swearCheckerUITests.m */,
+				AAFDF6861C24773C001AE8A9 /* Info.plist */,
+			);
+			path = swearCheckerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAFDF65B1C24773C001AE8A9 /* swearChecker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAFDF6891C24773C001AE8A9 /* Build configuration list for PBXNativeTarget "swearChecker" */;
+			buildPhases = (
+				AAFDF6581C24773C001AE8A9 /* Sources */,
+				AAFDF6591C24773C001AE8A9 /* Frameworks */,
+				AAFDF65A1C24773C001AE8A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = swearChecker;
+			productName = swearChecker;
+			productReference = AAFDF65C1C24773C001AE8A9 /* swearChecker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAFDF6741C24773C001AE8A9 /* swearCheckerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAFDF68C1C24773C001AE8A9 /* Build configuration list for PBXNativeTarget "swearCheckerTests" */;
+			buildPhases = (
+				AAFDF6711C24773C001AE8A9 /* Sources */,
+				AAFDF6721C24773C001AE8A9 /* Frameworks */,
+				AAFDF6731C24773C001AE8A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAFDF6771C24773C001AE8A9 /* PBXTargetDependency */,
+			);
+			name = swearCheckerTests;
+			productName = swearCheckerTests;
+			productReference = AAFDF6751C24773C001AE8A9 /* swearCheckerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AAFDF67F1C24773C001AE8A9 /* swearCheckerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAFDF68F1C24773C001AE8A9 /* Build configuration list for PBXNativeTarget "swearCheckerUITests" */;
+			buildPhases = (
+				AAFDF67C1C24773C001AE8A9 /* Sources */,
+				AAFDF67D1C24773C001AE8A9 /* Frameworks */,
+				AAFDF67E1C24773C001AE8A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAFDF6821C24773C001AE8A9 /* PBXTargetDependency */,
+			);
+			name = swearCheckerUITests;
+			productName = swearCheckerUITests;
+			productReference = AAFDF6801C24773C001AE8A9 /* swearCheckerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAFDF6541C24773C001AE8A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = MR;
+				TargetAttributes = {
+					AAFDF65B1C24773C001AE8A9 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = RVA2PRDVE9;
+					};
+					AAFDF6741C24773C001AE8A9 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = RVA2PRDVE9;
+						TestTargetID = AAFDF65B1C24773C001AE8A9;
+					};
+					AAFDF67F1C24773C001AE8A9 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = RVA2PRDVE9;
+						TestTargetID = AAFDF65B1C24773C001AE8A9;
+					};
+				};
+			};
+			buildConfigurationList = AAFDF6571C24773C001AE8A9 /* Build configuration list for PBXProject "swearChecker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAFDF6531C24773C001AE8A9;
+			productRefGroup = AAFDF65D1C24773C001AE8A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAFDF65B1C24773C001AE8A9 /* swearChecker */,
+				AAFDF6741C24773C001AE8A9 /* swearCheckerTests */,
+				AAFDF67F1C24773C001AE8A9 /* swearCheckerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAFDF65A1C24773C001AE8A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAFDF66F1C24773C001AE8A9 /* LaunchScreen.storyboard in Resources */,
+				AAFDF66C1C24773C001AE8A9 /* Assets.xcassets in Resources */,
+				AAFDF66A1C24773C001AE8A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFDF6731C24773C001AE8A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFDF67E1C24773C001AE8A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAFDF6581C24773C001AE8A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAFDF6671C24773C001AE8A9 /* ViewController.m in Sources */,
+				AAFDF6641C24773C001AE8A9 /* AppDelegate.m in Sources */,
+				AAFDF6611C24773C001AE8A9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFDF6711C24773C001AE8A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAFDF67A1C24773C001AE8A9 /* swearCheckerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFDF67C1C24773C001AE8A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAFDF6851C24773C001AE8A9 /* swearCheckerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAFDF6771C24773C001AE8A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAFDF65B1C24773C001AE8A9 /* swearChecker */;
+			targetProxy = AAFDF6761C24773C001AE8A9 /* PBXContainerItemProxy */;
+		};
+		AAFDF6821C24773C001AE8A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAFDF65B1C24773C001AE8A9 /* swearChecker */;
+			targetProxy = AAFDF6811C24773C001AE8A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AAFDF6681C24773C001AE8A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAFDF6691C24773C001AE8A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AAFDF66D1C24773C001AE8A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAFDF66E1C24773C001AE8A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAFDF6871C24773C001AE8A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AAFDF6881C24773C001AE8A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAFDF68A1C24773C001AE8A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = swearChecker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MR.swearChecker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AAFDF68B1C24773C001AE8A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = swearChecker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MR.swearChecker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AAFDF68D1C24773C001AE8A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = swearCheckerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MR.swearCheckerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swearChecker.app/swearChecker";
+			};
+			name = Debug;
+		};
+		AAFDF68E1C24773C001AE8A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = swearCheckerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MR.swearCheckerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swearChecker.app/swearChecker";
+			};
+			name = Release;
+		};
+		AAFDF6901C24773C001AE8A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = swearCheckerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MR.swearCheckerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = swearChecker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AAFDF6911C24773C001AE8A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = swearCheckerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MR.swearCheckerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = swearChecker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAFDF6571C24773C001AE8A9 /* Build configuration list for PBXProject "swearChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAFDF6871C24773C001AE8A9 /* Debug */,
+				AAFDF6881C24773C001AE8A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAFDF6891C24773C001AE8A9 /* Build configuration list for PBXNativeTarget "swearChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAFDF68A1C24773C001AE8A9 /* Debug */,
+				AAFDF68B1C24773C001AE8A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AAFDF68C1C24773C001AE8A9 /* Build configuration list for PBXNativeTarget "swearCheckerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAFDF68D1C24773C001AE8A9 /* Debug */,
+				AAFDF68E1C24773C001AE8A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AAFDF68F1C24773C001AE8A9 /* Build configuration list for PBXNativeTarget "swearCheckerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAFDF6901C24773C001AE8A9 /* Debug */,
+				AAFDF6911C24773C001AE8A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAFDF6541C24773C001AE8A9 /* Project object */;
+}
